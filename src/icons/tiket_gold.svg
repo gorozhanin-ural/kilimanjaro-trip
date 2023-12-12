@@ -1,0 +1,13 @@
+<svg width="30" height="56" viewBox="0 0 30 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 24">
+<path id="Vector 61" d="M19.7414 1.86665C17.8516 4.37778 12.1484 4.37778 10.2586 1.86665C9.59441 0.98408 8.74743 0 7.64286 0H2C0.895431 0 0 0.895431 0 2V54C0 55.1046 0.895431 56 2 56H7.64286C8.74743 56 9.59441 55.0159 10.2586 54.1334C12.1484 51.6222 17.8516 51.6222 19.7414 54.1334C20.4056 55.0159 21.2526 56 22.3571 56H28C29.1046 56 30 55.1046 30 54V2C30 0.895431 29.1046 0 28 0H22.3571C21.2526 0 20.4056 0.984081 19.7414 1.86665Z" fill="url(#paint0_linear_1_308)"/>
+<path id="Vector 62" d="M0 9H30" stroke="white" stroke-opacity="0.5" stroke-width="2"/>
+<path id="Vector 63 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M28.9286 0.300049C29.2244 0.300049 30 1.00006 30 2.00005L30 54C30 55.0001 29.2244 55.7001 28.9286 55.7001C28.9286 55.7001 28.9286 54.2762 28.9286 54L28.9286 2.00005C28.9286 1.72391 28.9286 0.500061 28.9286 0.300049Z" fill="#E48D03"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_308" x1="1.60714" y1="1.5" x2="13.3494" y2="56.3533" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFA400"/>
+<stop offset="1" stop-color="#F99300"/>
+</linearGradient>
+</defs>
+</svg>

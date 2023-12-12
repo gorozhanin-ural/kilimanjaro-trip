@@ -1,0 +1,73 @@
+:root {
+  --shadow-color: rgb(255 255 255 / 250%);
+}
+
+.interactive-link {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.interactive-link:hover {
+  -webkit-animation: wave 2s infinite;
+  animation: wave 2s infinite;
+  -webkit-mask-image: linear-gradient(
+    -75deg,
+    rgb(0 0 0 / 60%) 30%,
+    #000 50%,
+    rgb(0 0 0 / 60%) 70%
+  );
+  mask-image: linear-gradient(
+    -75deg,
+    rgb(0 0 0 / 60%) 30%,
+    #000 50%,
+    rgb(0 0 0 / 60%) 70%
+  );
+  -webkit-mask-size: 200%;
+  mask-size: 200%;
+}
+
+.interactive-link:focus {
+  outline: none;
+}
+
+.interactive-link:focus-visible {
+  border-radius: 2px;
+  outline: 1px currentcolor solid;
+  outline-offset: 3px;
+}
+
+.interactive-link:active {
+  opacity: 0.5;
+}
+
+.interactive-button {
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.interactive-button:hover {
+  box-shadow: 0 0 20px 0 var(--shadow-color);
+}
+
+.interactive-button:focus {
+  outline: none;
+}
+
+.interactive-button:focus-visible {
+  border-radius: 2px;
+  outline: 1px currentcolor solid;
+  outline-offset: 3px;
+}
+
+@keyframes wave {
+  from {
+    -webkit-mask-position: 150%;
+    mask-position: 150%;
+  }
+
+  to {
+    -webkit-mask-position: -50%;
+    mask-position: -50%;
+  }
+}
