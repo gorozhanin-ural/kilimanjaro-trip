@@ -1,0 +1,9 @@
+.questions__question_device_mobile {
+  display: none;
+}
+
+@media (width < 1024px) {
+  .questions__question_device_mobile {
+    display: flex;
+  }
+}

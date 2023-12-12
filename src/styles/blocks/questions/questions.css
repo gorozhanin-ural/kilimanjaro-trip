@@ -1,0 +1,11 @@
+.questions {
+  display: flex;
+  column-gap: 100px;
+}
+
+@media (width < 1024px) {
+  .questions {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+.options__title {
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+@media (width < 768px) {
+  .options__title {
+    margin-block-end: 5px;
+  }
+}

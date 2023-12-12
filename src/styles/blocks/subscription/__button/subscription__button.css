@@ -1,0 +1,12 @@
+.subscription__button {
+  position: absolute;
+  min-inline-size: 100px;
+  block-size: 40px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 8px 0 rgb(26 92 255 / 20%);
+  color: var(--page-text-main-color, #fff);
+  background: #1a5cff;
+  inset-inline-end: -25px;
+  inset-block-start: -10px;
+}

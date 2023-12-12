@@ -1,0 +1,7 @@
+.menu__logo {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  inline-size: 106px;
+  block-size: 40px;
+}

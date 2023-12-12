@@ -1,0 +1,10 @@
+.question__question-answer-opened {
+  display: flex;
+  margin-block-end: 20px;
+}
+
+@media (width < 1024px) {
+  .question__question-answer-opened {
+    margin-block-end: 10px;
+  }
+}

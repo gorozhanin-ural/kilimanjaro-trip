@@ -1,0 +1,20 @@
+.spoilers__spoiler-day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  min-inline-size: 100px;
+  block-size: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px 0 rgb(26 92 255 / 20%);
+  font-weight: 500;
+  text-transform: capitalize;
+  background: var(--button-bg-color, #1a5cff);
+  white-space: nowrap;
+}
+
+@media (width < 768px) {
+  .spoilers__spoiler-day {
+    font-weight: 700;
+  }
+}

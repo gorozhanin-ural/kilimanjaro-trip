@@ -1,0 +1,4 @@
+.spoilers__spoiler_opened::after {
+  transform-origin: center;
+  rotate: 180deg;
+}

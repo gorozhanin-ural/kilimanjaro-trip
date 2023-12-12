@@ -1,0 +1,9 @@
+.registration__heading_device_desktop {
+  display: flex;
+}
+
+@media (width < 1024px) {
+  .registration__heading_device_desktop {
+    display: none;
+  }
+}

@@ -1,0 +1,16 @@
+.summary__list-item {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  flex-basis: 150px;
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+@media (width < 768px) {
+  .summary__list-item {
+    flex-direction: row;
+    flex-basis: 0;
+  }
+}

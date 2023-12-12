@@ -1,0 +1,10 @@
+.summary__text {
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (width < 768px) {
+  .summary__text {
+    text-align: start;
+  }
+}

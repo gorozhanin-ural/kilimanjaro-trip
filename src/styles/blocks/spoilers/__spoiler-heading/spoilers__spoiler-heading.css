@@ -1,0 +1,12 @@
+.spoilers__spoiler-heading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+@media (width < 768px) {
+  .spoilers__spoiler-heading {
+    row-gap: 0;
+  }
+}

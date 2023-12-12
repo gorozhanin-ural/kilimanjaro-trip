@@ -1,0 +1,15 @@
+.tikets {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "tikets-board curator" "description curator";
+  justify-content: center;
+  gap: 20px;
+  margin-block-end: 73px;
+}
+
+@media (width < 1024px) {
+  .tikets {
+    grid-template-columns: minmax(320px, 60%);
+    grid-template-areas: "tikets-board" "description" "curator";
+  }
+}

@@ -1,0 +1,14 @@
+.subscription__input {
+  inline-size: 100%;
+  block-size: 40px;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 5px 8px 0 rgb(0 0 0 / 5%);
+  color: var(--page-text-accent-color, #2c3e50);
+  background: #fff;
+}
+
+.subscription__input::placeholder {
+  font-size: 14px;
+}

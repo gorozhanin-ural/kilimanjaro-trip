@@ -1,0 +1,10 @@
+.spoilers__spoiler-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 80px;
+  block-size: 20px;
+  border-radius: 5px;
+  font-size: 12px;
+  background: var(--menu-links-color, #9099a3);
+}

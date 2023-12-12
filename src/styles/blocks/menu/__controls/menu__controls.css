@@ -1,0 +1,11 @@
+.menu__controls {
+  display: flex;
+  align-items: center;
+}
+
+@media (width < 768px) {
+  .menu__controls {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}

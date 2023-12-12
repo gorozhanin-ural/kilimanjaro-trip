@@ -1,0 +1,4 @@
+.questions__question-title_opened::after {
+  transform-origin: top;
+  rotate: 180deg;
+}

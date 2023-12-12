@@ -1,0 +1,11 @@
+.summary__title {
+  font-weight: 700;
+  font-size: clamp(1rem, 0.9091rem + 0.4545vw, 1.25rem);
+  text-align: center;
+}
+
+@media (width < 768px) {
+  .summary__title {
+    text-align: start;
+  }
+}

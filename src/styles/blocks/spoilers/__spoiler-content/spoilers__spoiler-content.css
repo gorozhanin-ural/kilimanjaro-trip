@@ -1,0 +1,6 @@
+.spoilers__spoiler-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  max-inline-size: 570px;
+}

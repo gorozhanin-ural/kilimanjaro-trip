@@ -1,0 +1,9 @@
+.options {
+  margin-block-end: 100px;
+}
+
+@media (width < 768px) {
+  .options {
+    margin-block-end: 50px;
+  }
+}

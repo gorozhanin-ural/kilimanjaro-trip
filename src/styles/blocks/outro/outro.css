@@ -1,0 +1,16 @@
+.outro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  row-gap: 50px;
+  margin-block-end: 30px;
+  padding: 0 80px;
+}
+
+@media (width < 768px) {
+  .outro {
+    flex-direction: column-reverse;
+    padding: 20px calc(100vw / 15);
+  }
+}

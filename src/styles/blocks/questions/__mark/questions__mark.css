@@ -1,0 +1,12 @@
+.questions__mark {
+  color: var(--button-bg-color, #1a5cff);
+  font-family: var(--page-accent-font-family, "Montserrat");
+  font-weight: 700;
+  font-size: 144px;
+}
+
+@media (width < 1024px) {
+  .questions__mark {
+    font-size: 48px;
+  }
+}

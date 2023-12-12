@@ -1,0 +1,19 @@
+.menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 15px;
+  column-gap: 30px;
+  inline-size: 100%;
+  margin-inline-end: auto;
+  color: var(--menu-links-color, #9099a3);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media (width < 768px) {
+  .menu__list {
+    justify-content: center;
+  }
+}

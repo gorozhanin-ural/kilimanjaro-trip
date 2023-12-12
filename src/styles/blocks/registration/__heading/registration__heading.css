@@ -1,0 +1,5 @@
+.registration__heading {
+  display: flex;
+  flex-direction: column;
+  max-inline-size: 440px;
+}

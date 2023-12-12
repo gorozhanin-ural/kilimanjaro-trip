@@ -1,0 +1,7 @@
+.page {
+  min-inline-size: 360px;
+  max-inline-size: 1200px;
+  margin: 0 auto;
+  color: var(--page-text-main-color, #fff);
+  font-family: var(--page-main-font-family, "Poppins"), sans-serif;
+}

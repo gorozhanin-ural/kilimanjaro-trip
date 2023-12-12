@@ -1,0 +1,7 @@
+.options__list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-inline-size: 290px;
+}

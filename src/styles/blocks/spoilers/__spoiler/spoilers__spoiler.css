@@ -1,0 +1,40 @@
+.spoilers__spoiler {
+  position: relative;
+  display: flex;
+  column-gap: 50px;
+  border: 1px solid var(--menu-links-color, #9099a3);
+  border-radius: 15px;
+  padding: 20px 20px 15px;
+  cursor: pointer;
+}
+
+.spoilers__spoiler:hover {
+  opacity: 0.8;
+}
+
+.spoilers__spoiler::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 25px;
+  block-size: 10px;
+  background-image: url("../../../../icons/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  inset-inline-end: 20px;
+  inset-block-start: 36px;
+}
+
+@media (width < 768px) {
+  .spoilers__spoiler {
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px;
+  }
+
+  .spoilers__spoiler::after {
+    inset-block-start: 26px;
+  }
+}

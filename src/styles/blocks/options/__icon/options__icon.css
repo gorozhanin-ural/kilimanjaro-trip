@@ -1,0 +1,11 @@
+.options__icon {
+  inline-size: 80px;
+  block-size: 80px;
+  margin-block-end: 20px;
+}
+
+@media (width < 768px) {
+  .options__icon {
+    margin-block-end: 10px;
+  }
+}

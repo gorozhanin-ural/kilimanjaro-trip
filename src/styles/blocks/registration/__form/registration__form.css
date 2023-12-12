@@ -1,0 +1,10 @@
+.registration__form {
+  flex-shrink: 1;
+  flex-basis: 560px;
+}
+
+@media (width < 1024px) {
+  .registration__form {
+    flex-basis: 0;
+  }
+}
