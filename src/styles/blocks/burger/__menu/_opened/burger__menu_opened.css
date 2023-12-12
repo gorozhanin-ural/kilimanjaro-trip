@@ -1,0 +1,14 @@
+@media (width < 768px) {
+  .burger__menu_opened {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    inline-size: 100%;
+    padding: 20px;
+    background-color: var(--menu-bg-color, #1e2023);
+    inset-inline-start: 0;
+    inset-block-start: 99%;
+  }
+}

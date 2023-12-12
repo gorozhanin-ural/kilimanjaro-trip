@@ -1,0 +1,12 @@
+.footer__terms {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+@media (width < 768px) {
+  .footer__terms {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+.emotions__card-image {
+  inline-size: 300px;
+  block-size: 300px;
+  object-fit: cover;
+}
+
+@media (width < 768px) {
+  .emotions__card-image {
+    inline-size: 100%;
+    block-size: 100%;
+    aspect-ratio: 320 / 120;
+  }
+}

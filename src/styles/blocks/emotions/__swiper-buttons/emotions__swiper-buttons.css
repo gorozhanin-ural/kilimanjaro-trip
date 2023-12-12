@@ -1,0 +1,10 @@
+.emotions__swiper-buttons {
+  display: flex;
+  column-gap: 20px;
+}
+
+@media (width < 768px) {
+  .emotions__swiper-buttons {
+    column-gap: 10px;
+  }
+}

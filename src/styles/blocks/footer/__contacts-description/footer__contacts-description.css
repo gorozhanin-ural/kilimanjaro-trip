@@ -1,0 +1,10 @@
+.footer__contacts-description {
+  color: var(--menu-links-color, #9099a3);
+  font-size: 14px;
+}
+
+@media (width < 1024px) {
+  .footer__contacts-description {
+    margin-block-end: 20px;
+  }
+}

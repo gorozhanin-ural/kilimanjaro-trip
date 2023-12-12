@@ -1,0 +1,21 @@
+.bread-crumbs__list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bread-crumbs__list-item:not(:first-child) {
+  color: var(--page-text-accent-color, #2c3e50);
+}
+
+.bread-crumbs__list-item:not(:first-child)::before {
+  content: "/";
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+@media (width < 768px) {
+  .bread-crumbs__list-item:not(:first-child)::before {
+    font-size: 10px;
+  }
+}

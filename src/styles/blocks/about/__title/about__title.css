@@ -1,0 +1,9 @@
+.about__title {
+  margin-block-end: 20px;
+}
+
+@media (width < 1024px) {
+  .about__title {
+    align-self: center;
+  }
+}

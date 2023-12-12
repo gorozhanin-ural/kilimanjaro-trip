@@ -1,0 +1,13 @@
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 230px;
+  row-gap: 20px;
+}
+
+@media (width < 1024px) {
+  .footer__contacts {
+    flex-basis: 0;
+    row-gap: 0;
+  }
+}

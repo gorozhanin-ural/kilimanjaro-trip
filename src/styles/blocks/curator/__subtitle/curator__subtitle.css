@@ -1,0 +1,5 @@
+.curator__subtitle {
+  color: var(--menu-links-color, #9099a3);
+  font-size: 12px;
+  text-transform: capitalize;
+}

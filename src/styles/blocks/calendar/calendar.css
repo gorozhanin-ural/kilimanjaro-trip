@@ -1,0 +1,9 @@
+.calendar {
+  margin-block-end: 100px;
+}
+
+@media (width < 768px) {
+  .calendar {
+    margin-block-end: 50px;
+  }
+}

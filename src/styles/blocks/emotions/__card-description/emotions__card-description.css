@@ -1,0 +1,9 @@
+.emotions__card-description {
+  padding: 50px 20px;
+}
+
+@media (width < 768px) {
+  .emotions__card-description {
+    padding: 10px;
+  }
+}

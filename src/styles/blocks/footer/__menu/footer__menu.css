@@ -1,0 +1,13 @@
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 160px;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+
+@media (width < 1024px) {
+  .footer__menu {
+    inline-size: 100%;
+  }
+}

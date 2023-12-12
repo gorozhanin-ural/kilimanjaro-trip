@@ -1,0 +1,11 @@
+.burger__menu {
+  z-index: 2;
+  display: flex;
+  inline-size: 100%;
+}
+
+@media (width < 768px) {
+  .burger__menu {
+    display: none;
+  }
+}

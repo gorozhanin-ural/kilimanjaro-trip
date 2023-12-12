@@ -1,0 +1,10 @@
+.footer__contacts-title {
+  font-weight: 900;
+  font-size: clamp(0.875rem, 0.7679rem + 0.4762vw, 1.125rem);
+}
+
+@media (width < 1024px) {
+  .footer__contacts-title {
+    margin-block-end: 10px;
+  }
+}

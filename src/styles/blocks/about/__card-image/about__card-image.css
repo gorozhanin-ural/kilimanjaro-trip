@@ -1,0 +1,14 @@
+.about__card-image {
+  inline-size: 100%;
+  min-inline-size: 0;
+  max-block-size: 400px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+@media (width < 1024px) {
+  .about__card-image {
+    order: -1;
+    aspect-ratio: 2 / 1;
+  }
+}

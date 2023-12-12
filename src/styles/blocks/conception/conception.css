@@ -1,0 +1,17 @@
+.conception {
+  display: flex;
+  justify-content: space-between;
+  margin-block-end: 100px;
+}
+
+@media (width < 1024px) {
+  .conception {
+    flex-direction: column;
+  }
+}
+
+@media (width < 768px) {
+  .conception {
+    margin-block-end: 50px;
+  }
+}

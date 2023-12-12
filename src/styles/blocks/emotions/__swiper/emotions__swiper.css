@@ -1,0 +1,11 @@
+.emotions__swiper {
+  inline-size: 100%;
+  max-inline-size: 840px;
+  margin-block-end: 30px;
+}
+
+@media (width < 768px) {
+  .emotions__swiper {
+    margin-block-end: 20px;
+  }
+}

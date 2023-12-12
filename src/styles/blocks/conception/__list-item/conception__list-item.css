@@ -1,0 +1,22 @@
+.conception__list-item {
+  position: relative;
+}
+
+.conception__list-item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  inline-size: 25px;
+  block-size: 1rem;
+  background-image: url("../../../../icons/list-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  inset-inline-start: -45px;
+  inset-block-start: 0.5rem;
+}
+
+@media (width < 1024px) {
+  .conception__list-item::before {
+    inset-inline-start: -35px;
+  }
+}

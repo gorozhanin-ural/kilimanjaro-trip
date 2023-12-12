@@ -1,0 +1,12 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 80px;
+  background-color: var(--page-bg-color, #1e2023);
+}
+
+@media (width < 768px) {
+  .content {
+    padding: 20px calc(100vw / 15);
+  }
+}

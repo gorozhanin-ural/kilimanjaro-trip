@@ -1,0 +1,8 @@
+.about__button {
+  min-inline-size: 240px;
+  min-block-size: 40px;
+}
+
+.about__button:not(:first-of-type) {
+  margin-block-start: 10px;
+}

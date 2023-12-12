@@ -1,0 +1,12 @@
+.bread-crumbs {
+  display: flex;
+  justify-content: flex-end;
+  inline-size: 100%;
+  margin-block-end: 30px;
+}
+
+@media (width < 768px) {
+  .bread-crumbs {
+    margin-block-end: -22px;
+  }
+}

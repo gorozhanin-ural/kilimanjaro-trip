@@ -1,0 +1,14 @@
+.emotions__heading {
+  display: flex;
+  justify-content: space-between;
+  inline-size: 100%;
+  margin-block-start: 50px;
+  margin-block-end: 20px;
+}
+
+@media (width < 768px) {
+  .emotions__heading {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}

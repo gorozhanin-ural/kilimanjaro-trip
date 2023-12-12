@@ -1,0 +1,9 @@
+.bread-crumbs__home-icon {
+  block-size: 14px;
+}
+
+@media (width < 768px) {
+  .bread-crumbs__home-icon {
+    block-size: 10px;
+  }
+}

@@ -1,0 +1,10 @@
+.bread-crumbs__list {
+  display: flex;
+  font-size: 14px;
+}
+
+@media (width < 768px) {
+  .bread-crumbs__list {
+    font-size: 10px;
+  }
+}

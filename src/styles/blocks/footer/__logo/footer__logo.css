@@ -1,0 +1,10 @@
+.footer__logo {
+  inline-size: 56px;
+}
+
+@media (width < 768px) {
+  .footer__logo {
+    order: 4;
+    inline-size: 42px;
+  }
+}

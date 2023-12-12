@@ -1,0 +1,7 @@
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  color: var(--menu-links-color, #9099a3);
+  font-size: clamp(0.75rem, 0.6964rem + 0.2381vw, 0.875rem);
+}

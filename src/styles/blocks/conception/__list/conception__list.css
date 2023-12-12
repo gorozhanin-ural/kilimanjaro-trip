@@ -1,0 +1,15 @@
+.conception__list {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 520px;
+  row-gap: 1rem;
+  font-size: clamp(0.875rem, 0.8214rem + 0.2381vw, 1rem);
+  text-transform: capitalize;
+}
+
+@media (width < 1024px) {
+  .conception__list {
+    flex-basis: 0;
+    padding-inline-start: 35px;
+  }
+}

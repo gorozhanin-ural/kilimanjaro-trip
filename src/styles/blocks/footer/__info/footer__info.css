@@ -1,0 +1,16 @@
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  color: var(--menu-links-color, #9099a3);
+  font-size: 10px;
+}
+
+@media (width < 768px) {
+  .footer__info {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    padding: 20px calc(100vw / 15);
+  }
+}

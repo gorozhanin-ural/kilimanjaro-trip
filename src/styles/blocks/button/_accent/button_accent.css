@@ -1,0 +1,14 @@
+.button_accent {
+  display: none;
+  min-inline-size: 200px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  padding: 0 10px;
+  background-color: transparent;
+}
+
+@media (width < 1024px) {
+  .button_accent {
+    display: flex;
+  }
+}

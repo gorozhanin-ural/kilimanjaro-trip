@@ -1,0 +1,17 @@
+.curator {
+  border-radius: 15px;
+  padding: 40px 20px;
+  color: var(--page-text-accent-color, #2c3e50);
+  background-color: var(--page-text-main-color, #fff);
+  background-image: url("../../../images/curator.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: calc(100% / 1.5);
+  aspect-ratio: 1 / 1;
+}
+
+@media (width < 768px) {
+  .curator {
+    padding: 20px 10px;
+  }
+}

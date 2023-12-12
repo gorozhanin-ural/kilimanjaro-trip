@@ -1,0 +1,15 @@
+.about__card-description {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-basis: 530px;
+  padding: 50px 20px;
+  font-size: 14px;
+}
+
+@media (width < 1024px) {
+  .about__card-description {
+    flex-basis: 0;
+    padding: 20px 10px;
+  }
+}

@@ -1,0 +1,6 @@
+.about__cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  margin-block-end: 30px;
+}

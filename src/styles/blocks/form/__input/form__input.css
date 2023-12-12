@@ -1,0 +1,23 @@
+.form__input {
+  inline-size: 100%;
+  max-inline-size: 560px;
+  block-size: 60px;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: clamp(0.875rem, 0.1477rem + 1.1364vw, 1rem);
+  background: rgb(255 255 255 / 20%);
+}
+
+.form__input::placeholder {
+  color: rgb(255 255 255 / 50%);
+  font-family: var(--page-accent-font-family, "Montserrat"), sans-serif;
+  font-size: clamp(0.875rem, 0.1477rem + 1.1364vw, 1rem);
+}
+
+@media (width < 1024px) {
+  .form__input {
+    block-size: 40px;
+    padding: 10px 20px;
+  }
+}

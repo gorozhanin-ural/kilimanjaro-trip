@@ -1,0 +1,14 @@
+.footer__menu-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+@media (width < 1024px) {
+  .footer__menu-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    inline-size: 100%;
+  }
+}

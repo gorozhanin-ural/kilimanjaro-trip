@@ -1,0 +1,4 @@
+.emotions__card-title {
+  font-weight: 700;
+  font-size: clamp(1rem, 0.8929rem + 0.4762vw, 1.25rem);
+}

@@ -1,0 +1,9 @@
+.footer__subscription {
+  max-inline-size: 285px;
+}
+
+@media (width < 1024px) {
+  .footer__subscription {
+    max-inline-size: 280px;
+  }
+}

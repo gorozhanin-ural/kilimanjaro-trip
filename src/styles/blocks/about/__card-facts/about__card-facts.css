@@ -1,0 +1,12 @@
+.about__card-facts {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 60px;
+}
+
+@media (width < 1024px) {
+  .about__card-facts {
+    column-gap: 10px;
+  }
+}

@@ -1,0 +1,12 @@
+.emotions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-block-end: 100px;
+}
+
+@media (width < 768px) {
+  .emotions {
+    margin-block-end: 50px;
+  }
+}

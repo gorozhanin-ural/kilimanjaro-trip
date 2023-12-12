@@ -1,0 +1,9 @@
+.about__card-fact {
+  flex-basis: 150px;
+}
+
+@media (width < 1024px) {
+  .about__card-fact {
+    flex-basis: 140px;
+  }
+}

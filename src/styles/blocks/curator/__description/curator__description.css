@@ -1,0 +1,11 @@
+.curator__description {
+  max-inline-size: 200px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media (width < 768px) {
+  .curator__description {
+    font-size: 14px;
+  }
+}

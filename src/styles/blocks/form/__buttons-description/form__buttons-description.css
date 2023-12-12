@@ -1,0 +1,4 @@
+.form__buttons-description {
+  font-family: var(--page-accent-font-family, "Montserrat"), sans-serif;
+  font-size: clamp(0.75rem, 0.0227rem + 1.1364vw, 0.875rem);
+}

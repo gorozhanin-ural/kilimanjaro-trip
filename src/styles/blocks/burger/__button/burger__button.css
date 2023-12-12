@@ -1,0 +1,22 @@
+.burger__button {
+  display: none;
+  min-inline-size: 37px;
+  min-block-size: 37px;
+  border: none;
+  padding: 0;
+  color: var(--page-text-main-color, #fff);
+  background-color: transparent;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.burger__button:hover {
+  opacity: 0.8;
+}
+
+@media (width < 768px) {
+  .burger__button {
+    display: flex;
+    align-items: center;
+  }
+}
